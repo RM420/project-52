@@ -1,0 +1,66 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color:#ffffff;
+    margin:0px;
+}
+
+a:link {
+    color: blue;
+}
+a:visited{
+    color: blueviolet;
+}
+
+body{
+    background-color: whitesmoke;
+    position: relative;
+}
+.body p{
+    color: #f7f2f2;
+    font-size: 55px;
+    font-family: fantasy;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.grid img{
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.oragami{
+    border-radius: 20px;
+    background-color: white;
+
+    width: 310px;
+    font-family: fantasy;
+}
+
+.oragami p{
+    color: white;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    font-size: 30px;
+    transform:translate(-50%, -50%);
+    opacity: 0;
+}
+
+.oragami:hover{
+    transform: scale(1.2);
+}
+.oragami:hover p{opacity: 1;}
+.oragami:hover img{opacity: 0.33;}
